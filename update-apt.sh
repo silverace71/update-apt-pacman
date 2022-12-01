@@ -2,7 +2,7 @@
 
 echo "do you wish to update and install any upgrades for your system [THIS ONLY WORKS IF YOU HAVE APT] (y/n)"
     read var1
-if [[ $var1 == y ]]; then
+if [[ $var1 == "y" ]]; then
     echo "updating now"
     sleep 2
     sudo apt update
